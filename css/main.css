@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 900px;
+}
+header {
+  background-color: #f0c53e;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 75% 75% / 30%;
+}
+
+.logo {
+  padding-left: 30px;
+}
+.Links {
+  width: 30%;
+  position: relative;
+  margin: auto;
+}
+header .overlay {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  float: left;
+  color: #7f2736;
+  font-size: 80px;
+  margin-bottom: 30px;
+  padding-top: 150px;
+  padding-left: 30px;
+}
+
+h2 {
+  /* font-family: "Open Sans", sans-serif; */
+  font-style: normal;
+  font-size: 16px;
+  color: #333;
+  padding-top: 280px;
+  margin-left: 30px;
+}
+
+.explore {
+  position: relative;
+  left: 40px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #fff;
+  background: #7f2736;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+.phone-number {
+  float: right;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #fff;
+  background: #7f2736;
+  margin-bottom: 50px;
+  margin-right: 30px;
+  box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+.video-player {
+  position: relative;
+  left: 80px;
+  top: 15px;
+  width: 45;
+  height: 45px;
+}
+.plane {
+  float: right;
+  position: relative;
+  bottom: 200px;
+  right: 190px;
+}
+h3 {
+  position: relative;
+  font-style: normal;
+  font-size: 16px;
+  color: #333;
+  left: 320px;
+  top: 45px;
+}
+span {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+button,span:hover {
+  cursor: pointer;
+}
